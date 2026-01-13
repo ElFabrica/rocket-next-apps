@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="border-t border-white/10">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <div className="flex justify-between md:flex-row md:justify-start gap-8 py-8">
+        <div className="flex justify-between md:flex-row sm:justify-center md:justify-start gap-8 py-8">
           <Link href={"/"}>
             <Image src={"/logo.svg"} alt="Logo vite" width={116} height={32} />
           </Link>
