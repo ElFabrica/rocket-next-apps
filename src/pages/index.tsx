@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Button } from "@/components/ui/button";
+import { Header } from "@/components/header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,14 +14,5 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return (
-    <div>
-      <main>
-        <div>
-          Hello World
-          <Button>Opam</Button>
-        </div>
-      </main>
-    </div>
-  );
+  return <div></div>;
 }
