@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Button } from "@/components/ui/button";
-import { Header } from "@/components/header";
+import { HeroSection } from "@/components/hero-section";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,5 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <>
+      <article className="flex flex-col">
+        <HeroSection />
+      </article>
+    </>
+  );
 }
