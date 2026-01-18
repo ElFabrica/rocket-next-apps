@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import { HeroSection } from "@/components/hero-section";
+import { FeatureSection } from "@/components/feature-section";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,6 +18,7 @@ export default function Home() {
     <>
       <article className="flex flex-col">
         <HeroSection />
+        <FeatureSection />
       </article>
     </>
   );
